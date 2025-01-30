@@ -108,20 +108,25 @@ while(i <= max_it):
     # Reiterates through the formula
     if(df(p1)):
 
+        # Updates iterations, polynomial, and prints it out
         i += 1
         p2 = p1 - (f(p1) / df(p1))
         print(i, ":", p2)
 
+        # Ends loop if tolerance threshold is reached
         if(abs(p2 - p1) < tol):
             print(i+1, ":", p2)
             break
-            
+
+        # Updates for next loop
         p1 = p2
 
+    # Prints failure if derivative ends
     else:
         print("Failure, derivative is zero")
         break
 
+# Prints failure if iterations 
 if(i > max_it):
     print("Failure, max iterations performed")
         
