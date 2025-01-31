@@ -4,3 +4,6 @@
 3. The fixed-point Iteration (Slide 13, Chapter 2.2)
 4. The Newton-Raphson method (Slide 7, Chapter 2.3)
 
+Codes each function based on the pseudocode and numbers from powerpoint slides
+
+Made in python
