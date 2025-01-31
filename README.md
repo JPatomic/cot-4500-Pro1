@@ -7,3 +7,13 @@
 Codes each function based on the pseudocode and numbers from powerpoint slides
 
 Made in python
+
+## Using the Program
+
+Run the following in the directory the files were installed
+
+**pip install -r requirements.txt**
+
+Then run the program itself
+
+**python .\assignment_1.py**
